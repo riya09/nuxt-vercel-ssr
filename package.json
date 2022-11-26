@@ -3,6 +3,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxt --port $PORT",
+    "build": "nuxt build",
     "local-dev": "vercel dev -A vercel.dev.json"
   },
   "dependencies": {
